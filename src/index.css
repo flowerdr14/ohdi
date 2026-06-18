@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Jua", "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-purple: #51105c;
+  --color-brand-pink: #eb9fe0;
+  --color-brand-light-purple: #e2a5e1;
+  --color-brand-accent-violet: #9c27b0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-pink);
+  color: var(--color-brand-purple);
+  margin: 0;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+/* Custom scrollbars to match cartoon aesthetic */
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf2fe;
+  border: 3px solid var(--color-brand-purple);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-purple);
+  border: 1px solid #fdf2fe;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-accent-violet);
+}
+
+/* Custom shadow to mimic Retro Comic / Soft Neobrutalism look */
+.m-shadow {
+  box-shadow: 4px 4px 0px 0px rgba(81, 16, 92, 1);
+}
+
+.m-shadow-sm {
+  box-shadow: 2px 2px 0px 0px rgba(81, 16, 92, 1);
+}
+
+.m-shadow-lg {
+  box-shadow: 6px 6px 0px 0px rgba(81, 16, 92, 1);
+}
+

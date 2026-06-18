@@ -1,0 +1,6 @@
+{
+  "name": "OHDI (오디)",
+  "description": "On Hyperboard Document Interactiveboard - A playful, highly-interactive whiteboard and digital document lecture program. Organize textbooks, sketch with custom tools, adjust colors, use a multi-page grid, and manage notes locally.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
